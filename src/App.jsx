@@ -1,1 +1,9 @@
-export default function App() {}
+import AccordionList from "./components/AccordionList";
+
+export default function App() {
+  return (
+    <div className="container">
+      <AccordionList />
+    </div>
+  );
+}

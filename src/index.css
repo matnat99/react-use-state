@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+/* RESET */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* GENERAL */
+body {
+  font-family: "Montserrat", serif;
+}
+
+.container {
+  max-width: 31.25rem;
+  margin: 0 auto;
+  padding: 1.25rem 0;
+}
+
+/* ACCORDION */
+.accordion {
+  box-shadow: rgba(150, 160, 165, 0.5) 0px 8px 24px;
+  border: 0.0625rem solid black;
+  border-radius: 0.625rem;
+  margin-bottom: 1.25rem;
+}
+
+.accordion-title {
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: lightgray;
+  border-bottom: 0.0625rem solid black;
+  border-top-left-radius: 0.625rem;
+  border-top-right-radius: 0.625rem;
+  padding: 0.625rem;
+}
+
+.accordion-btn {
+  font-size: 1.4rem;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.accordion-description {
+  padding: 1rem 0.625rem;
+}
