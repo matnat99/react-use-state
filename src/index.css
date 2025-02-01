@@ -24,6 +24,7 @@ body {
   border: 0.0625rem solid black;
   border-radius: 0.625rem;
   margin-bottom: 1.25rem;
+  overflow: hidden;
 }
 
 .accordion-title {
@@ -33,9 +34,12 @@ body {
   justify-content: space-between;
   background-color: lightgray;
   border-bottom: 0.0625rem solid black;
-  border-top-left-radius: 0.625rem;
-  border-top-right-radius: 0.625rem;
   padding: 0.625rem;
+  margin-bottom: -0.0625rem;
+}
+
+.accordion-title.open {
+  background-color: #ffc107;
 }
 
 .accordion-btn {
